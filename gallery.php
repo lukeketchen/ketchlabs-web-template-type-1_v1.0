@@ -7,11 +7,11 @@
 
 <div id="gallery-page">
 
-    <?php include "partials/sections/gallery-slider.php" ?>
+    <?php include "partials/sections/section--gallery-slider.php" ?>
 
-    <?php include "partials/sections/gallery-grid.php" ?>
+    <?php include "partials/sections/section--gallery-grid.php" ?>
 
 </div>
 
 <!-- Footer -->
-<?php include "includes/sections/footer.php" ?>
+<?php include "partials/footer/footer.php" ?>

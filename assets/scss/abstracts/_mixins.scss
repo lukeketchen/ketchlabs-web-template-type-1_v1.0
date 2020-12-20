@@ -1,0 +1,91 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+// Mixin for events
+@mixin on-event($self: false) {
+    @if $self {
+      &,
+      &:hover,
+      &:active,
+      &:focus {
+        @content;
+      }
+    } @else {
+      &:hover,
+      &:active,
+      &:focus {
+        @content;
+      }
+    }
+  }
+  
+  // Mixin for font size
+  @mixin font-size($mobile, $tablet, $desktop) {
+    font-size: #{$desktop};
+  
+    @include mq($until: desktop) {
+      font-size: #{$tablet};
+    }
+  
+    @include mq($until: tablet) {
+      font-size: #{$mobile};
+    }
+  }
+  
+  // Mixin for letter spacing
+  @mixin letter-spacing($mobile, $tablet, $desktop) {
+    letter-spacing: #{$desktop};
+  
+    @include mq($until: desktop) {
+      letter-spacing: #{$tablet};
+    }
+  
+    @include mq($until: mobileLandscape) {
+      letter-spacing: #{$mobile};
+    }
+  }
+  
+  // Mixin for line height
+  @mixin line-height($mobile, $tablet, $desktop) {
+    line-height: #{$desktop};
+  
+    @include mq($until: desktop) {
+      line-height: #{$tablet};
+    }
+  
+    @include mq($until: tablet) {
+      line-height: #{$mobile};
+    }
+  }
+  
+  // Mixin for image aspect ratio 
+  @mixin aspect-ratio($width, $height) {
+    position: relative;
+    width: 100%;
+    padding-top: $height / $width * 100%;
+    
+    > *:first-child {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  // Mixin for any responsive variable 
+  @mixin res($setting ,$mobile, $tablet, $desktop) {
+    #{$setting}: #{$desktop};
+  
+    @include mq($until: desktop) {
+        #{$setting}: #{$tablet};
+    }
+  
+    @include mq($until: tablet) {
+        #{$setting}: #{$mobile};
+    }
+  }

@@ -7,9 +7,9 @@
 
 <div id="about-page">
 
-    <?php include "partials/sections/about.php" ?>
+    <?php include "partials/sections/section--about.php" ?>
 
 </div>
 
 <!-- Footer -->
-<?php include "includes/sections/footer.php" ?>
+<?php include "partials/footer/footer.php" ?>

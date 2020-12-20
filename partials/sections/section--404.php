@@ -1,6 +1,6 @@
 
-<!-- Section Service Slider -->
-<section class="section section--services-Slider">
+<!-- 404 section -->
+<section class="section section--404">
 
     <div class="section__background">
 

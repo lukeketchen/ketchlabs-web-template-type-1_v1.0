@@ -1,0 +1,101 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/**
+ * Colors
+ */
+
+// Primary Colour
+$color-primary: #d38900;
+$color-primary-dark: #212527;
+$color-primary-light: #c3fdff;
+
+// Secondary Colour
+$color-secondary: #a5d6a7;
+$color-secondary-dark: #75a478;
+$color-secondary-light: #d7ffd9;
+
+// Text Colour
+$color-text: #282828;
+$color-text-light: #dfdfdf;
+
+// Background Colour
+$color-background: #d9d9d9;
+$color-background-light: #f9f9f9;
+
+
+// Default Padding
+$padding-x-sm: 10px;
+$padding-sm: 20px;
+$padding-md: 40px;
+$padding-lg: 80px;
+
+// Section Container's maximum width
+$max-width: 1600px;
+
+/**
+ * Fonts
+ */
+
+// Main Font used throughout site.
+$primary-font-stack: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+// Main Font for Headings
+$heading-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+// Monospace Font
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+/**
+ * Responsive
+ */
+
+$mq-breakpoints: (
+    mobile:  320px,
+    tablet:  640px,
+    desktop: 980px,
+    wide:    1300px,
+    // Tweakpoints
+    desktopAd: 810px,
+    mobileLandscape: 480px
+);
+
+/**
+* Navigation
+**/
+$navbar-height: 80px;
+
+//$mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
+    
+$slick-font-path: "./assets/fonts/slick/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "./" !default;
+$slick-arrow-color: white !default;
+$slick-dot-color: black !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "\2190" !default;
+$slick-next-character: "\2192" !default;
+$slick-dot-character: "\2022" !default;
+$slick-dot-size: 6px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;
+
+
+/**
+* Mobile Menu Toggle Settings
+*/
+$hamburger-padding-x           : 15px;
+$hamburger-padding-y           : 15px;
+$hamburger-layer-width         : 40px;
+$hamburger-layer-height        : 4px;
+$hamburger-layer-spacing       : 6px;
+$hamburger-layer-color         : $color-text-light;
+$hamburger-layer-border-radius : 4px;
+$hamburger-hover-opacity       : 0.7;
+$hamburger-active-layer-color  : $hamburger-layer-color;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity;
+
+$plyr-color-main: $color-primary;
+

@@ -1,0 +1,76 @@
+/**
+ * Basic typography style for copy text
+ */
+
+ body {
+	color: $color-text;
+	font: normal 125% / 1.4 $primary-font-stack;
+}
+
+/* First Paragraph that is larger than rest of content */
+
+.lead {
+	font-size: 125%;
+	font-style: italic;
+}
+
+@mixin heading {
+	font-family: $primary-font-stack;
+	font-weight: 500;
+
+	&--light {
+		color: $color-text-light;
+	}
+}
+
+h1,
+.h1 {
+	@include heading;
+
+	/* Mobile, Tablet, Desktop Font Settings */
+	@include font-size(30px, 50px, 70px);
+	@include line-height(30px, 50px, 70px);
+}
+
+h2,
+.h2 {
+	@include heading;
+
+	/* Mobile, Tablet, Desktop Font Settings */
+	@include font-size(25px, 40px, 50px);
+	@include line-height(25px, 40px, 50px);
+}
+
+h3,
+.h3 {
+	@include heading;
+	color: $color-text-light;
+	text-transform: uppercase;
+}
+
+h4,
+.h4 {
+	@include heading;
+}
+
+h5,
+.h5 {
+	@include heading;
+}
+
+h6,
+.h6 {
+	@include heading;
+}
+
+li {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+label {
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 20px;
+}
