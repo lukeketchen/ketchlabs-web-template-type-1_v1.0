@@ -8,11 +8,28 @@
     $logo_thin = "https://dummyimage.com/300x100.jpg?text=Logo";
 
     // Footer section data
+    $copyright_details = "2021. Owner of the website";
     $designer = "ketchLabs";
     $designer_address = "ketchLabs.com";
-    $copyright_details = "2021. Owner of the website";
+    
 
     // Homepage data
+
+    // Testimonials data
+    $testimonials_slides = array(
+        "1" => array(
+                "testimonial_icon" => "https://dummyimage.com/100x100.jpg",
+                "testimonial_title" => "Testimonials 1 Title",
+                "testimonial_subtitle" => "Testimonials 1 subtitle",
+                "testimonial_text" => "Testimonials 1 text" 
+        ),
+        "2" => array(
+            "testimonial_icon" => "https://dummyimage.com/100x100.jpg",
+            "testimonial_title" => "Testimonials 2 Title",
+            "testimonial_subtitle" => "Testimonials 2 subtitle",
+            "testimonial_text" => "Testimonials 2 text" 
+        ),
+    );
 
     // About Page data
     $about_title = "Who we are";
@@ -62,24 +79,24 @@
     );
     $services = array(
         "1" => array(
-            "services_title" => "Service 1 Title",
+            "service_title" => "Service 1 Title",
             "service_text" => "Service 1 text",
             "service_image" => "https://dummyimage.com/200x300.jpg"
         ),
         "2" => array(
-            "services_title" => "Service 2 Title",
+            "service_title" => "Service 2 Title",
             "service_text" => "Service 2 text",
             "service_image" => "https://dummyimage.com/200x300.jpg"
         ),
         "3" => array(
-            "services_title" => "Service 3 Title",
+            "service_title" => "Service 3 Title",
             "service_text" => "Service 3 text",
             "service_image" => "https://dummyimage.com/200x300.jpg"
         ),
     );
 
     // Contact Us Page data
-    $contact_image = "https://unsplash.com/photos/ir5MHI6rPg0";
+    $contact_image = "https://dummyimage.com/300x200.jpg?text=Map";
     $contact_tagline = "Servicing this area and greater";
     $phone_number = 0400000000;
     $email_address = "test@email.com";

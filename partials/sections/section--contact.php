@@ -7,16 +7,16 @@
         <div class="section__container">
 
             <div class="map-holder">
-                <img src="https://source.unsplash.com/random" alt="map">
+                <img src="<?= $contact_image; ?>" alt="map">
             </div>
             
             <div class="contact-details">
-                <h5>Services this area</h5>
+                <h5><?= $contact_tagline; ?></h5>
                 <ul>
                     <li>Call</li>
-                    <li>0400 000 000</li>
+                    <li><?= $phone_number; ?></li>
                     <li>Email</li>
-                    <li>test@email.com</li>
+                    <li><?= $email_address; ?></li>
                 </ul>
             </div>
 

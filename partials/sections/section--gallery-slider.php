@@ -7,17 +7,12 @@
         <div class="section__container">
 
             <!-- Section Content goes here. -->
-            <?php foreach($gallery_slides as $slider){ ?>
+            <?php foreach($gallery_slides as $slides){ ?>
             
-                <?php foreach($slider as $slides){ ?>
-            
-                    <p><?=  $slides; ?></p>
-
-                <?php } ?>
+                    <img src="<?= $slides["slide_image"]; ?>" alt="">
+                    <p><?=  $slides["slide_text"]; ?></p>
 
             <?php } ?>
-
-            
 
         </div>
 
