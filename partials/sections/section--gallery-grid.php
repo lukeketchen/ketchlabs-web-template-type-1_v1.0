@@ -7,6 +7,11 @@
         <div class="section__container">
 
             <!-- Section Content goes here. -->
+            <?php foreach($gallery_images as $images){ ?>
+            
+                <img src="<?=  $images; ?>" alt="">
+
+            <?php } ?>
 
         </div>
 

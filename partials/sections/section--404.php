@@ -7,6 +7,7 @@
         <div class="section__container">
 
             <!-- Section Content goes here. -->
+            <h1>404 section</h1>
 
         </div>
 

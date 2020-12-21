@@ -1,21 +1,27 @@
 <!-- Header -->
-<?php include "header.php" ?>
+<?php include "header.php";
+
+    $pagetitle = "Services"; 
+
+ ?>
 
 <!-- Navbar -->
-<?php include "partials/header/section--navbar.php.php" ?>
+<?php include "partials/header/section--navbar.php" ?>
 
 
 <div id="services-page">
+    <!-- Set page title above-->
+    <?php include "partials/header/section--breadcrumb.php" ?>
 
-    <?php include "partials/sections/services-slider.php" ?>
+    <?php include "partials/sections/section--service-slider.php" ?>
 
-    <?php include "partials/sections/services-one.php" ?>
+    <?php include "partials/sections/section--service-one.php" ?>
 
-    <?php include "partials/sections/services-two.php" ?>
+    <?php include "partials/sections/section--service-two.php" ?>
 
-    <?php include "partials/sections/services-three.php" ?>
+    <?php include "partials/sections/section--service-three.php" ?>
 
 </div>
 
 <!-- Footer -->
-<?php include "includes/sections/footer.php" ?>
+<?php include "partials/footer/footer.php" ?>

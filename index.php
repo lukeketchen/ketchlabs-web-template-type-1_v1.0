@@ -2,16 +2,18 @@
 <?php include "header.php" ?>
 
 <!-- Navbar -->
-<?php include "partials/header/section--navbar.php.php" ?>
+<?php include "partials/header/section--navbar.php" ?>
 
 
 <div id="home-page">
+    <!-- If a page title is set above it will show the breadcrumbs section -->
+    <?php ($page_title=="" ? "" : include "partials/header/section--breadcrumb.php" ) ?>
 
     <?php include "partials/sections/section--home-banner.php" ?>
 
     <?php include "partials/sections/section--home-about.php" ?>
 
-    <?php include "partials/sections/section--home-testimonials.php" ?>
+    <?php include "partials/sections/section--testimonials.php" ?>
 
     <?php include "partials/sections/section--home-services.php" ?>
 
