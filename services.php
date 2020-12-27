@@ -1,7 +1,7 @@
 <!-- Header -->
 <?php include "header.php";
 
-    $pagetitle = "Services"; 
+    $page_title = "Services"; 
 
  ?>
 
@@ -15,11 +15,7 @@
 
     <?php include "partials/sections/section--service-slider.php" ?>
 
-    <?php include "partials/sections/section--service-one.php" ?>
-
-    <?php include "partials/sections/section--service-two.php" ?>
-
-    <?php include "partials/sections/section--service-three.php" ?>
+    <?php include "partials/sections/section--services-card.php" ?>
 
 </div>
 

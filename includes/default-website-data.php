@@ -185,16 +185,19 @@
     $services = array(
         "1" => array(
             "service_title" => "Service 1 Title",
+            "display_backwards" => false,
             "service_text" => "Service 1 text",
             "service_image" => "https://dummyimage.com/200x300.jpg"
         ),
         "2" => array(
             "service_title" => "Service 2 Title",
+            "display_backwards" => true,
             "service_text" => "Service 2 text",
             "service_image" => "https://dummyimage.com/200x300.jpg"
         ),
         "3" => array(
             "service_title" => "Service 3 Title",
+            "display_backwards" => false,
             "service_text" => "Service 3 text",
             "service_image" => "https://dummyimage.com/200x300.jpg"
         ),

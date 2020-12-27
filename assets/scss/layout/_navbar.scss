@@ -1,0 +1,31 @@
+.section--navbar{
+    .section__container{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+    .logo-wrapper{
+        height: 100px;
+        width: 300px;
+    }
+    .nav-wrapper{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .top-menu-item{
+        padding: 20px;
+        &:first-child {
+            padding-left: 0;
+        }
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+    .contact-wrapper{
+        position: absolute;
+        top: 0;
+        right: 20%;
+
+    }
+}

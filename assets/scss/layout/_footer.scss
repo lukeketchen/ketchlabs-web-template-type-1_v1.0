@@ -1,0 +1,35 @@
+
+footer,
+.footer {
+    color: $color-text-light;
+    background-color: $color-primary;
+    &__container {
+        display: flex;
+        padding: $padding-md $padding-md;
+        max-width: $max-width;
+        margin: 0 auto;
+        @include mq($until: tablet) {
+            flex-direction: column;
+            padding: $padding-sm;
+        }
+    }
+
+    &__bottom-bar {
+        color: $color-text-light;
+        min-height: $navbar-height;
+
+        .footer__background {
+            background-color: $color-primary-dark;
+            height: 100%;
+        }
+        .footer__container {
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            @include mq($until: tablet) {
+                flex-direction: column;
+                padding: $padding-md;
+            }
+        }
+    }
+}

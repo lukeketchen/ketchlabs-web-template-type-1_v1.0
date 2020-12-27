@@ -12,9 +12,13 @@
                 <div class="service-card">
             
                         <h2><?=  $service["service_title"]; ?></h2>
-                        <p><?=  $service["service_text"]; ?></p>
-                        <img src="<?= $service["service_image"]; ?>" alt="">
 
+                        <div class="card-content  <?= ($service["display_backwards"] ? "display-backwards" :  "" )?>">
+
+                            <p><?=  $service["service_text"]; ?></p>
+                            <img src="<?= $service["service_image"]; ?>" alt="">
+
+                        </div>
 
                 </div>
 
