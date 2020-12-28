@@ -1,11 +1,13 @@
 <!-- Header -->
 <?php include "header.php" ?>
 
-<!-- Navbar -->
-<?php include "partials/header/section--navbar.php" ?>
+
 
 
 <div id="home-page">
+    <!-- Navbar -->
+    <?php include "partials/header/section--navbar.php" ?>
+    
     <!-- If a page title is set above it will show the breadcrumbs section -->
     <?php ($page_title=="" ? "" : include "partials/header/section--breadcrumb.php" ) ?>
 

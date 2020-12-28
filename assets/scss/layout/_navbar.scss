@@ -1,8 +1,14 @@
 .section--navbar{
+    position: fixed;
+    top: 0;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    z-index: 88;
     .section__container{
         display: flex;
         position: relative;
         justify-content: space-between;
+        padding: $padding-x-sm $padding-md;
     }
     .logo-wrapper{
         height: 100px;
