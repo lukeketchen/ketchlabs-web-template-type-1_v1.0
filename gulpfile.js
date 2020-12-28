@@ -54,7 +54,7 @@ function browsersyncReload(cb){
 
 // Watch Task
 function watchTask(){
-  watch('*.php', browsersyncReload);
+  watch('*.php', browsersync.reload);
   watch(['assets/scss/**/*.scss', 'assets/js/**/*.js'], series(scssTask, jsCustom, browsersync.reload));
 }
 

@@ -7,23 +7,20 @@
     src: url('https://fonts.googleapis.com/css?family=Open+Sans');
 }
 @font-face {
-  font-family: 'Graphik-Light';
-  src: url('assets/fonts/Graphik-Light.eot?#iefix') format('embedded-opentype'),  url('assets/fonts/Graphik-Light.otf')  format('opentype'),
-       url('assets/fonts/Graphik-Light.woff') format('woff'), url('assets/fonts/Graphik-Light.ttf')  format('truetype'), url('assets/fonts/Graphik-Light.svg#Graphik-Light') format('svg');
+  font-family: 'changaone-regular';
+  src: url('assets/fonts/changaone-regular-webfont.woff') format('woff'), url('assets/fonts/ChangaOne-Regular.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Graphik-Semibold';
-  src: url('assets/fonts/Graphik-Semibold.eot') format('embedded-opentype'),  url('assets/fonts/Graphik-Semibold.otf')  format('opentype'),
-       url('assets/fonts/Graphik-Semibold.woff') format('woff'), url('assets/fonts/Graphik-Semibold.ttf')  format('truetype'), url('assets/fonts/Graphik-Semibold.svg#Graphik-Semibold') format('svg');
+  font-family: 'Montserrat-Regular';
+  src: url('assets/fonts/montserrat-regular-webfont.woff') format('woff'), url('assets/fonts/Montserrat-Regular.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'MyriadPro-Regular';
-  src: url('assets/fonts/MyriadPro-Regular.eot') format('embedded-opentype'),  url('assets/fonts/MyriadPro-Regular.otf')  format('opentype'),
-       url('assets/fonts/MyriadPro-Regular.woff') format('woff'), url('assets/fonts/MyriadPro-Regular.ttf')  format('truetype'), url('assets/fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-family: 'Montserrat-Medium';
+  src: url('assets/fonts/montserrat-medium-webfont.woff') format('woff'), url('assets/fonts/Montserrat-Medium.ttf')  format('truetype');
   font-weight: normal;
-  font-style: normal;
+  font-style: italic;
 }
