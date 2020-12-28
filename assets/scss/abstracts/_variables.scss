@@ -65,7 +65,8 @@ $mq-breakpoints: (
 /**
 * Navigation
 **/
-$navbar-height: 80px;
+$navbar-height: 120px;
+$section-height: calc( 100vh - #{$navbar-height} );
 
 /**
 * Images
