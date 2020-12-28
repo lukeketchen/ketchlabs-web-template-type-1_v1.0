@@ -30,6 +30,7 @@ $padding-x-sm: 10px;
 $padding-sm: 20px;
 $padding-md: 40px;
 $padding-lg: 80px;
+$padding-x-lg: 100px;
 
 // Section Container's maximum width
 $max-width: 1600px;
@@ -65,6 +66,11 @@ $mq-breakpoints: (
 * Navigation
 **/
 $navbar-height: 80px;
+
+/**
+* Images
+**/
+$footer-img-height: 300px;
 
 //$mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
     

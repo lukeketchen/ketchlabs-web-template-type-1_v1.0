@@ -72,6 +72,7 @@ section,
         padding: 0 $padding-sm;
         &:first-child {
             padding-left: 0;
+            width: 40%;
         }
         &:last-child {
             padding-right: 0;
@@ -91,6 +92,14 @@ section,
 
     .inverted-layout{
         flex-direction: row-reverse;
+        .section__column{
+            &:first-child {
+                padding-left: $padding-sm;
+            }
+            &:last-child {
+                padding-right: $padding-sm;
+            }
+        }
     }
 
     &__content{

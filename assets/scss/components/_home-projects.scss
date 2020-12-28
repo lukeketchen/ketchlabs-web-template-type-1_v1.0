@@ -1,3 +1,18 @@
-.section--projects{
+.section--home-projects{
+    height: 100vh;
+
+    .section__container{
+        height: 100%;
+    }
     
+    .section__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .img-wrapper{
+        height: 100%;
+    }
 }

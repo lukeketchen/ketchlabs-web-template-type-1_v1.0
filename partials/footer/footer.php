@@ -1,25 +1,30 @@
 
-
-<script type="text/javascript" src="./assets/js/vendor.js"></script> 
-<script type="text/javascript" src="./assets/js/custom.js"></script>  
-
+<!-- Footer -->
 <footer>
+    <div class="footer__background">
+        <div class="footer__container">
 
-    <img src="<?=  $logo_large; ?>" alt="">
+            <div class="footer__top-container">
 
-    <h5>Site Navigation</h5>
-    <ul>
-        <?php foreach($page_navigation as $nav){ ?>
-                
-            <li><a href="<?=  $nav["nav_link"];  ?>"><?=  $nav["nav_title"];  ?></a></li>
+                <div class="img-wrapper">
+                    <img class="img--contain" src="<?=  $logo_large; ?>" alt="">
+                </div>
 
-        <?php } ?>
-    </ul>
+                <div class="section__content">
 
-    <div class="footer__bottom-bar">
-        <div class="footer__background">
-            <div class="footer__container">
+                    <h5>Site Navigation</h5>
+                    <ul>
+                        <?php foreach($page_navigation as $nav){ ?>
+                                
+                            <li><a href="<?=  $nav["nav_link"];  ?>"><?=  $nav["nav_title"];  ?></a></li>
 
+                        <?php } ?>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="footer__bottom-bar">
+            
                 <div class="footer__copyright">
                     Copyright © <?=  $copyright_details; ?>
                 </div>
@@ -31,9 +36,10 @@
             </div>
         </div>
     </div>
-
-    
-
 </footer>
+
+<script type="text/javascript" src="./assets/js/vendor.js"></script> 
+<script type="text/javascript" src="./assets/js/custom.js"></script>  
+
 </body>
 </html>

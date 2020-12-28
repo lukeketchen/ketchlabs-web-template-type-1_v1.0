@@ -1,3 +1,34 @@
-.section--contact{
-    
+.section--home-contact{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0 !important;
+    height: 100vh;
+
+    .section__background{
+        position: relative;
+    }
+
+    .img-wrapper{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 40vw;
+    }
+    .contact-box{
+        @include content-border;    
+    }
+
+    .section__column{
+        width: 50%;
+    }
+
+    .contact-details{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+         & *{
+             margin-top: 0;
+             margin-bottom: 0;
+         }
+    }
 }

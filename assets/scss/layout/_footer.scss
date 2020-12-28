@@ -1,35 +1,52 @@
 
 footer,
 .footer {
-    color: $color-text-light;
-    background-color: $color-primary;
     &__container {
         display: flex;
-        padding: $padding-md $padding-md;
+        flex-direction: column;
+        padding: $padding-md $padding-md 0 $padding-md;
         max-width: $max-width;
         margin: 0 auto;
         @include mq($until: tablet) {
-            flex-direction: column;
-            padding: $padding-sm;
+            padding: $padding-sm $padding-sm 0 $padding-sm;
         }
     }
 
-    &__bottom-bar {
-        color: $color-text-light;
-        min-height: $navbar-height;
+    .footer__background {
+        background-color: $color-primary-dark;
+        height: 100%;
+    }
 
-        .footer__background {
-            background-color: $color-primary-dark;
-            height: 100%;
+    &__top-container{
+        display: grid;
+        grid-template-columns: [start] 1fr [mid] 1fr [last] 1fr [end];   
+    }
+
+    .img-wrapper{
+        grid-column-start: mid;
+        grid-column-end: last;
+        max-height: $footer-img-height;
+        img{
+            object-position: center;
         }
-        .footer__container {
-            justify-content: space-between;
-            align-items: center;
-            height: 100%;
-            @include mq($until: tablet) {
-                flex-direction: column;
-                padding: $padding-md;
-            }
+    }
+    .section__content{
+        grid-column-start: last;
+        grid-column-end: end;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__bottom-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        @include mq($until: tablet) {
+            flex-direction: column;
+            padding: $padding-md;
         }
+        
     }
 }

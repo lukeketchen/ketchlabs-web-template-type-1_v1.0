@@ -106,7 +106,7 @@
             "service_text" => "Service 3 text"
         ),
     );
-    $homepage_about_button = "See Our Services";
+    $homepage_services_button = "See Our Services";
 
     // Homepage Projects
     $homepage_project_image = "https://dummyimage.com/250x400.jpg";

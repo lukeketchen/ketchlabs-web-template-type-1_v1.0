@@ -10,6 +10,7 @@
             arrows: false,
             autoplay: true,
             autoplaySpeed: 4000,
+            infinite: true,
 
         });
     })

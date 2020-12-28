@@ -61,6 +61,22 @@ a {
 	}
 }
 
+footer{
+	color: $color-text-light;
+	a{
+		color: $color-text-light;
+		text-transform: uppercase;
+	}
+	ul {
+		li {
+			&::before {
+				content: ""; 
+				display: none;
+
+			}
+		}
+	}
+} 
 /**
  * Basic styles for lists
  */
@@ -113,3 +129,9 @@ ol {
 		list-style-position: inside;
 	}
 }
+
+ // Mixin for border
+ @mixin content-border() {
+	border: 1px $color-primary-dark solid;
+	padding: $padding-md;
+  }
