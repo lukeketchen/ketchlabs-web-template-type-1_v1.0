@@ -5,7 +5,7 @@
     // Slider Banner
     $('.section--home-banner').each(() => { // Only run this code if a banner slider is present on the page
 
-        $('.js-banner__slider').slick({
+        $('.js-banner-slider').slick({
             dots: true,
             arrows: false,
         });

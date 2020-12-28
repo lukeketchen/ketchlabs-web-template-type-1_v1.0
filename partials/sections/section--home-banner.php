@@ -1,9 +1,9 @@
 
 <!-- Section Home Banner -->
-<section id="foo" class="section section--home-banner">
+<section class="section section--home-banner">
     <div class="section__background">
         <div class="section__container">
-            <div class="js-banner__slider"> 
+            <div class="js-banner-slider"> 
 
                 <?php foreach($home_banner_slides as $slides){ ?>
                 

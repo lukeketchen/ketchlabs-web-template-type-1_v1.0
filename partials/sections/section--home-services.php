@@ -1,6 +1,6 @@
 
 <!-- Section Home Services -->
-<section class="section section--home-services section--two-column">
+<section class="section section--two-column section--home-services">
     <div class="section__background">
         <div class="section__container  inverted-layout">
             <div class="section__column">
