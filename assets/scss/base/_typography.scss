@@ -15,6 +15,15 @@
 }
 
 @mixin heading {
+	font-family: $heading-font-stack;
+	font-weight: 500;
+
+	&--light {
+		color: $color-text-light;
+	}
+}
+
+@mixin title {
 	font-family: $primary-font-stack;
 	font-weight: 500;
 
@@ -30,37 +39,56 @@ h1,
 	/* Mobile, Tablet, Desktop Font Settings */
 	@include font-size(30px, 50px, 70px);
 	@include line-height(30px, 50px, 70px);
+	margin: 0;
 }
 
 h2,
 .h2 {
-	@include heading;
+	@include title;
+	text-transform: uppercase;
 
 	/* Mobile, Tablet, Desktop Font Settings */
-	@include font-size(25px, 40px, 50px);
-	@include line-height(25px, 40px, 50px);
+	@include font-size(35px, 35px, 35px);
+	@include line-height(35px, 35px, 35px);
+	margin: 0;
 }
 
 h3,
 .h3 {
-	@include heading;
+	@include title;
 	color: $color-text-light;
 	text-transform: uppercase;
+	margin: 0;
+	/* Mobile, Tablet, Desktop Font Settings */
+	@include font-size(25px, 25px, 25px);
+	@include line-height(25px, 25px, 25px);
+	&--large{
+		@include heading;
+		text-transform: initial;
+		/* Mobile, Tablet, Desktop Font Settings */
+		@include font-size(25px, 40px, 50px);
+		@include line-height(25px, 40px, 50px);
+		
+	}
 }
 
 h4,
 .h4 {
-	@include heading;
+	@include title;
 }
 
 h5,
 .h5 {
-	@include heading;
+	@include title;
 }
 
 h6,
 .h6 {
-	@include heading;
+	@include title;
+}
+
+p{
+	font-size: 16px;
 }
 
 li {

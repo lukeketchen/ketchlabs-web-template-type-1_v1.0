@@ -1,5 +1,5 @@
 const { src, dest, watch, series } = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass'); 
 const postcss = require('gulp-postcss');
 const cssnano = require('cssnano');
 const terser = require('gulp-terser');
@@ -36,7 +36,9 @@ function browsersyncServe(cb){
   connect.server({}, function () {
     browsersync({
       proxy: '127.0.0.1:8000',
-      open: false
+      open: false,
+      injectChanges: true,
+      watchEvents: [ 'change', 'add', 'unlink', 'addDir', 'unlinkDir' ]
     });
   });
   cb();
@@ -54,8 +56,8 @@ function browsersyncReload(cb){
 
 // Watch Task
 function watchTask(){
-  watch('*.php', browsersync.reload);
-  watch(['assets/scss/**/*.scss', 'assets/js/**/*.js'], series(scssTask, jsCustom, browsersync.reload));
+  watch('./**/*.php', browsersync.reload);
+  watch(['./assets/scss/**/*.scss', './assets/js/custom/**/*.js',  './assets/js/vendor/**/*.js'], series(scssTask, jsCustom, browsersync.reload));
 }
 
 // Default Gulp Task

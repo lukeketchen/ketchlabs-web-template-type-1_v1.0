@@ -13,8 +13,8 @@
                 
                         <div class="slide-content">
 
-                            <p><?=  $slides["banner_title"]; ?></p>
-                            <p><?=  $slides["banner_subtitle"]; ?></p>
+                            <h1><?=  $slides["banner_title"]; ?></h1>
+                            <h3 class="h3--large"><?=  $slides["banner_subtitle"]; ?></h3>
                             <p><?=  $slides["banner_text"]; ?></p>
                             
                             <div class="content-action">

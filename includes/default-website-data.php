@@ -46,29 +46,29 @@
     // Banner slider
     $home_banner_slides = array(
         "1" => array(
-                "banner_image" => "https://dummyimage.com/900x800.jpg",
+                "banner_image" => "https://dummyimage.com/900x800.jpg?text=Banner Img One",
                 "banner_title" => "Banner 1 Title",
                 "banner_subtitle" => "Banner 1 subtitle",
-                "banner_text" => "Banner 1 text",
+                "banner_text" => "Velit commodo irure ex sit et excepteur pariatur commodo aliqua non.",
                 "banner_button" => "button text" 
         ),
         "2" => array(
-            "banner_image" => "https://dummyimage.com/900x800.jpg",
+            "banner_image" => "https://dummyimage.com/900x800.jpg?text=Banner Img Two",
             "banner_title" => "Banner 2 Title",
             "banner_subtitle" => "Banner 2 subtitle",
-            "banner_text" => "Banner 2 text",
+            "banner_text" => "Excepteur magna qui reprehenderit anim aliquip.",
             "banner_button" => "button text" 
         )
     );
 
     // Home About
-    $homepage_about_image = "https://dummyimage.com/300x300.jpg";
+    $homepage_about_image = "https://dummyimage.com/300x300.jpg?text=About img";
     $homepage_about_heading = "About Heading";
     $homepage_about_subheading = "About subheading";
     $homepage_about_text = array(
-        "1" => "About text paragraph 1",
-        "2" => "About text paragraph 2",
-        "3" => "About text paragraph 3",
+        "1" => "Aliquip ut officia nisi amet Lorem cupidatat enim est nulla elit tempor. Ullamco quis culpa ex cupidatat exercitation irure officia occaecat velit ut. Nostrud quis consequat aliquip deserunt do.",
+        "2" => "Zombie ipsum brains reversus ab cerebellum viral inferno, brein nam rick mend grimes malum cerveau cerebro. De carne cerebro lumbering animata cervello corpora quaeritis.",
+        "3" => "Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​",
     );
     $homepage_about_button = "Read More";
 
@@ -95,15 +95,15 @@
     $homepage_services = array(
         "1" => array(
             "service_title" => "Service 1 Title",
-            "service_text" => "Service 1 text"
+            "service_text" => "Eiusmod elit nisi do nisi pariatur velit. Qui deserunt minim nostrud ad et in proident veniam sint non commodo nostrud est. Elit aliquip sit Lorem veniam."
         ),
         "2" => array(
             "service_title" => "Service 2 Title",
-            "service_text" => "Service 2 text"
+            "service_text" => "Lorem adipisicing aliqua commodo ad nostrud. Ad ipsum consectetur voluptate do enim nulla enim in commodo laborum non in qui."
         ),
         "3" => array(
             "service_title" => "Service 3 Title",
-            "service_text" => "Service 3 text"
+            "service_text" => "Nostrud laboris cupidatat eiusmod mollit nulla. Est esse id esse exercitation incididunt consequat consectetur elit nisi exercitation cillum fugiat aliqua sit."
         ),
     );
     $homepage_services_button = "See Our Services";
@@ -114,8 +114,8 @@
     $homepage_project_subheading = "Projects subheading";
     $homepage_project_jobheading = "Projects job heading";
     $homepage_project = array(
-        "1" => "Projects text paragraph 1",
-        "2" => "Projects text paragraph 2"
+        "1" => "Incididunt quis velit veniam incididunt eu non nostrud excepteur adipisicing ullamco. Esse sit aute et ullamco id. Aliquip dolor officia excepteur laborum excepteur exercitation non. Incididunt amet nisi veniam dolore Lorem amet nisi nostrud tempor quis sit. Ad id labore occaecat et veniam Lorem nostrud sunt occaecat exercitation id dolor.",
+        "2" => "Ipsum do mollit excepteur labore laboris amet enim deserunt cillum. Cupidatat amet excepteur voluptate Lorem irure amet non nulla. Aliquip veniam nulla ut enim aliqua aliquip minim."
     );
     $homepage_project_button = "See Our Gallery";
 

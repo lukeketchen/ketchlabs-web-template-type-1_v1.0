@@ -40,12 +40,13 @@ $max-width: 1600px;
  */
 
 // Main Font used throughout site.
-$primary-font-stack: 'Montserrat-Regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$primary-font-stack: 'montserrat-regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
-$heading-font-stack: 'Montserrat-Medium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$secondary-font-stack: 'montserrat-bold', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
-// Main Font for Headings
-$title-font-stack: 'changaone-regular', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$heading-font-stack: 'changaone-regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+$heading-italic-font-stack: 'changaone-italic', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
 // Monospace Font
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
