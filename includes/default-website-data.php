@@ -147,11 +147,11 @@
     $gallery_slides = array(
         "1" => array(
                 "slide_image" => "https://dummyimage.com/900x800.jpg",
-                "slide_text" => "Slide 1 text" 
+                "slide_text" => "Hang the jib grog blossom long clothes warp measured fer yer chains pinnace swab ballast cog maroon. Warp dance the hempen jig skysail jolly boat crack Jennys tea cup execution dock reef brig keel measured fer yer chains. Lanyard landlubber or just lubber reef sails tackle lad fore Gold Road strike colors pink crow's nest." 
         ),
         "2" => array(
             "slide_image" => "https://dummyimage.com/900x800.jpg",
-            "slide_text" => "Slide 2 text" 
+            "slide_text" => "Coxswain sloop deadlights weigh anchor chase booty poop deck parrel Chain Shot lugger. Cat o'nine tails spike Sink me transom Admiral of the Black marooned handsomely Arr me loot. Provost coffer bucko pink weigh anchor heave to mizzenmast crow's nest Blimey Barbary Coast." 
         ),
     );
     $gallery_images = array(

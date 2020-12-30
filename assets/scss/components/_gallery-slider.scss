@@ -1,3 +1,30 @@
 .section--gallery-slider{
-    
+    height: $section-height;
+
+    .section__container, 
+    .gallery-slider, 
+    .slick-list,
+    .slick-track,
+    .gallery-slide,
+    .slick-slide,
+    .slick-slide > div{
+        height: 100%;
+    }
+
+    .slide-content{
+        height: 10%;
+    }
+
+    .img-wrapper{
+        height: 90%;
+    }
+    .slick-dots{
+        bottom: 5%;
+        right: 0;
+        text-align: end;
+        width: auto;
+    }
+    .slick-dots li:before {
+        content: "";
+    }
 }
