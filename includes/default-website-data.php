@@ -49,14 +49,14 @@
                 "banner_image" => "https://dummyimage.com/900x800.jpg?text=Banner Img One",
                 "banner_title" => "Banner 1 Title",
                 "banner_subtitle" => "Banner 1 subtitle",
-                "banner_text" => "Velit commodo irure ex sit et excepteur pariatur commodo aliqua non.",
+                "banner_text" => "Belaying pin lad port spanker dead men tell no tales reef sails squiffy coffer Davy Jones' Locker Sink me. Buccaneer gun chase guns poop deck to go on account heave down walk the plank Davy Jones' Locker Gold Road jolly boat. Gabion topgallant marooned fluke dance the hempen jig ahoy killick yawl scuttle hornswaggle.",
                 "banner_button" => "button text" 
         ),
         "2" => array(
             "banner_image" => "https://dummyimage.com/900x800.jpg?text=Banner Img Two",
             "banner_title" => "Banner 2 Title",
-            "banner_subtitle" => "Banner 2 subtitle",
-            "banner_text" => "Excepteur magna qui reprehenderit anim aliquip.",
+            "banner_subtitle" => "ahoy arrrrrr matey boat land luber",
+            "banner_text" => "Overhaul keel hempen halter lookout case shot grog blossom lee splice the main brace topsail main sheet. Black spot six pounders me spyglass long clothes fire ship bilge water brig squiffy lugsail. Jack Tar Corsair ye bilged on her anchor hail-shot tender Nelsons folly Shiver me timbers no prey, no pay carouser.",
             "banner_button" => "button text" 
         )
     );

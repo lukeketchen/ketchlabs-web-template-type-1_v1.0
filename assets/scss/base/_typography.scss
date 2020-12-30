@@ -35,6 +35,7 @@
 h1,
 .h1 {
 	@include heading;
+	color: $color-text-heading;
 
 	/* Mobile, Tablet, Desktop Font Settings */
 	@include font-size(30px, 50px, 70px);
@@ -56,7 +57,6 @@ h2,
 h3,
 .h3 {
 	@include title;
-	color: $color-text-light;
 	text-transform: uppercase;
 	margin: 0;
 	/* Mobile, Tablet, Desktop Font Settings */
@@ -65,6 +65,7 @@ h3,
 	&--large{
 		@include heading;
 		text-transform: initial;
+		color: $color-text-light;
 		/* Mobile, Tablet, Desktop Font Settings */
 		@include font-size(25px, 40px, 50px);
 		@include line-height(25px, 40px, 50px);
@@ -75,6 +76,7 @@ h3,
 h4,
 .h4 {
 	@include title;
+	margin: 0;
 }
 
 h5,
@@ -101,4 +103,13 @@ label {
 	font-weight: 500;
 	letter-spacing: 0;
 	line-height: 20px;
+}
+
+button,
+.button{
+	font-family: $primary-font-stack;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+
 }

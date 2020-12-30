@@ -7,18 +7,22 @@
  */
 
 // Primary Colour
-$color-primary: #d38900;
+$color-primary: #9de7d7;
 $color-primary-dark: #212527;
 $color-primary-light: #c3fdff;
 
 // Secondary Colour
-$color-secondary: #32b5c7;
+$color-secondary: #00239c;
 $color-secondary-dark: #25a82d;
 $color-secondary-light: #d7ffd9;
 
 // Text Colour
-$color-text: #282828;
+$color-text: #898989;
 $color-text-light: #dfdfdf;
+$color-text-primary: $color-primary;
+$color-text-secondary: $color-secondary;
+$color-text-heading: #f7da17;
+
 
 // Background Colour
 $color-background: #d9d9d9;

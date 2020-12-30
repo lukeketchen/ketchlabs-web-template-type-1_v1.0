@@ -53,10 +53,10 @@ body {
  */
 
 a {
-	color: $color-primary;
+	color: $color-text;
 	text-decoration: none;
 	@include on-event {
-		color: $color-secondary;
+		color: $color-text-secondary;
 		text-decoration: underline;
 	}
 }
