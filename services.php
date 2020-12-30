@@ -5,11 +5,10 @@
 
  ?>
 
-<!-- Navbar -->
-<?php include "partials/header/section--navbar.php" ?>
-
-
 <div id="services-page">
+    <!-- Navbar -->
+    <?php include "partials/header/section--navbar.php" ?>
+
     <!-- Set page title above-->
     <?php include "partials/header/section--breadcrumb.php" ?>
 
