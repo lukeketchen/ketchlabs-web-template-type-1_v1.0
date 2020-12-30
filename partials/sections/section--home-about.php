@@ -28,9 +28,7 @@
                     </div>
 
                     <div class="content-action">
-
                         <button><?=  $homepage_about_button; ?></button>
-
                     </div>
 
                 </div>

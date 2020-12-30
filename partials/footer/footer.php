@@ -10,23 +10,25 @@
                     <img class="img--contain" src="<?=  $logo_large; ?>" alt="">
                 </div>
 
-                <div class="section__content">
+                <div class="footer-links">
+                    <div class="section__content">
 
-                    <h5>Site Navigation</h5>
-                    <ul>
-                        <?php foreach($page_navigation as $nav){ ?>
-                                
-                            <li><a href="<?=  $nav["nav_link"];  ?>"><?=  $nav["nav_title"];  ?></a></li>
+                        <h5>Site Navigation</h5>
+                        <ul>
+                            <?php foreach($page_navigation as $nav){ ?>
+                                    
+                                <li><a href="<?=  $nav["nav_link"];  ?>"><?=  $nav["nav_title"];  ?></a></li>
 
-                        <?php } ?>
-                    </ul>
+                            <?php } ?>
+                        </ul>
 
+                    </div>
                 </div>
             </div>
             <div class="footer__bottom-bar">
             
                 <div class="footer__copyright">
-                    Copyright © <?=  $copyright_details; ?>
+                    <p>Copyright © <?=  $copyright_details; ?></p>                    
                 </div>
 
                 <div class="footer__author">

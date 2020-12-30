@@ -7,12 +7,14 @@
                 <div class="section__content">
 
                     <!-- Section Content goes here. -->
-                    <h2><?=  $homepage_contact_heading; ?></h2>
-                    <h3><?=  $homepage_contact_subheading; ?></h3>
+                    <div class="content-header">
+                        <h2><?=  $homepage_contact_heading; ?></h2>
+                        <h3><?=  $homepage_contact_subheading; ?></h3>
+                    </div>
 
                     <div class="contact-box">
 
-                        <h5><?= $contact_tagline; ?></h5>
+                        <p class="contact-tagline"><?= $contact_tagline; ?></p>
 
                         <div class="contact-details">
                                 <h4>Call</h4>
@@ -23,7 +25,9 @@
 
                     </div>
 
-                    <button><?=  $homepage_contact_button; ?></button>
+                    <div class="content-action">
+                        <button><?=  $homepage_contact_button; ?></button>
+                    </div>
 
                 </div>
             </div>

@@ -35,8 +35,16 @@
 
     }
 
-    .slide-text{
+    .content-heading{
+        margin-bottom: $padding-md;
+    }
+
+    .content-text{
         width: 45%;
+    }
+
+    .content-action{
+        margin-top: $padding-md;
     }
 
 }

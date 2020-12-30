@@ -30,10 +30,15 @@ footer,
             object-position: center;
         }
     }
+    
+    .footer-links{
+        display: flex;
+        justify-content: center;
+    }
+
     .section__content{
         grid-column-start: last;
         grid-column-end: end;
-        align-items: center;
         display: flex;
         flex-direction: column;
     }

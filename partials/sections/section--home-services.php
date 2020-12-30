@@ -23,7 +23,7 @@
 
                         <?php foreach($homepage_services as $text){ ?>
 
-                            <h5><?=  $text["service_title"]; ?></h5>
+                            <h4><?=  $text["service_title"]; ?></h4>
                             <p><?=  $text["service_text"]; ?></p>
 
                         <?php } ?>

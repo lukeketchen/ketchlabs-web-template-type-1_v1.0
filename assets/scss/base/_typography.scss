@@ -82,6 +82,7 @@ h4,
 h5,
 .h5 {
 	@include title;
+	text-transform: uppercase;
 }
 
 h6,
@@ -113,3 +114,10 @@ button,
 	font-size: 16px;
 
 }
+
+footer{
+	a{
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+} 

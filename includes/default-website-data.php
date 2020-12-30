@@ -209,7 +209,7 @@
     * Contact Us Page data
     */
     $contact_image = "https://dummyimage.com/300x200.jpg?text=Map";
-    $contact_tagline = "Servicing this area and greater";
+    $contact_tagline = "Proident reprehenderit id sit in tempor elit occaecat.";
     $phone_number = 0400000000;
     $email_address = "test@email.com";
 

@@ -8,6 +8,17 @@
         position: relative;
     }
 
+    .section__container{
+        height: 100%;
+    }
+
+    .section__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
     .img-wrapper{
         position: absolute;
         right: 0;
@@ -17,15 +28,21 @@
     }
     .contact-box{
         @include content-border;    
+        width: fit-content;
     }
 
     .section__column{
         width: 50%;
     }
 
+    .contact-tagline{
+        max-width: 500px;
+    }
+
     .contact-details{
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 120px 1fr;
+        margin-top: $padding-md;
          & *{
              margin-top: 0;
              margin-bottom: 0;
