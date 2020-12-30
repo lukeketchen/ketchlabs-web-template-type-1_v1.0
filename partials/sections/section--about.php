@@ -3,22 +3,39 @@
 <section class="section section--about">
     <div class="section__background">
         <div class="section__container">
+            <div class="section__row ">
 
-            <!-- Section Content goes here. -->
-            <h2><?= $about_title ?></h2>
+                <!-- Section Content goes here. -->
+                <div class="img-wrapper">
+                    <img class="img--cover" src="<?= $about_image ?>" alt="">
+                </div>
 
-          
+                <div class="section--about__column">
 
-            <img src="<?= $about_image ?>" alt="">
+                    <div class="content-header">
+                        <h2><?= $about_title ?></h2>
+                    </div>
 
-            <div class="section__content">
+                    <div class="section__content">
 
-                <?php foreach($about_text as $about){ ?>
-                
-                    <h1><?=  $about; ?></h1>
+                        <?php foreach($about_text as $about){ ?>
+                        
+                                <p><?=  $about; ?></p>
+                            
+                    
+                        <?php } ?>
 
-                <?php } ?>
-
+                    </div>
+                </div>
+            </div>
+            <div class="section__row ">
+                <div class="">
+                    <?php foreach($about_text as $about){ ?>
+                            
+                        <p><?=  $about; ?></p>
+    
+                    <?php } ?>
+                </div>
             </div>
         </div>
     </div>

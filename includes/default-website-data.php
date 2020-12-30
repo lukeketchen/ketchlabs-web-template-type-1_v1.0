@@ -131,13 +131,13 @@
     */
     $about_title = "Who we are";
     $about_text = array(
-        "1" => "About text paragraph 1",
-        "2" => "About text paragraph 2",
-        "3" => "About text paragraph 3",
-        "4" => "About text paragraph 4",
-        "5" => "About text paragraph 5",
+        "1" => "Trysail barque long clothes shrouds gunwalls cable clipper draft crow's nest Pirate Round. Lee jib mutiny line clipper gally coffer dead men tell no tales chase guns gibbet. Fore gun wench tackle draught nipperkin no prey, no pay clipper Arr gally.",
+        "2" => "Six pounders piracy rum salmagundi Sink me rope's end spanker swing the lead brigantine broadside. Topgallant lookout draft yawl swab lad maroon holystone swing the lead belay. Handsomely black spot hands yawl American Main schooner hornswaggle Brethren of the Coast Plate Fleet grog.",
+        "3" => "Matey Privateer grog blossom gibbet execution dock Yellow Jack Chain Shot fluke black spot gun. Sail ho aft Jack Tar deadlights belaying pin topgallant gangplank nipper transom barkadeer. Booty crack Jennys tea cup Nelsons folly topsail bilged on her anchor red ensign keel galleon nipper piracy.",
+        "4" => "Blimey overhaul pillage rope's end hail-shot American Main ballast salmagundi crimp jack. Scallywag tender bilged on her anchor topgallant code of conduct blow the man down hail-shot dead men tell no tales topmast grog blossom. Privateer Corsair Jack Ketch Arr pink man-of-war bowsprit blow the man down rum Gold Road.",
+        "5" => "Blow the man down Sea Legs draught list careen killick parley jury mast tack cog. Cog keel grog black spot pressgang Arr wherry hogshead bilge rat gally. Letter of Marque no prey, no pay yawl quarterdeck bucko tackle list rigging long clothes trysail.",
     );
-    $about_image = "https://dummyimage.com/200x300.jpg";
+    $about_image = "https://dummyimage.com/200x300.jpg?text=About";
 
 
      
