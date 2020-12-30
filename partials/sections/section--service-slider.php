@@ -1,23 +1,24 @@
 
 <!-- Section Service Slider -->
-<section class="section section--service-Slider">
-
+<section class="section section--service-slider">
     <div class="section__background">
-
         <div class="section__container">
+            <div class="js-service-slider service-slider">
 
-            <!-- Section Content goes here. -->
-            <h2>Slider</h2>
-            <?php foreach($services as $slides){ ?>
-            
-                <img src="<?= $slides["service_image"]; ?>" alt="">
-                <p><?=  $slides["service_text"]; ?></p>
-                <h2><?=  $slides["service_title"]; ?></h2>
+                <?php foreach($services_slides as $slides){ ?>
+                    <div class="service-slide" >
+                
+                        <div class="img-wrapper">
+                            <img class="img--cover" src="<?= $slides["slide_image"]; ?>" alt="">
+                        </div>
+                        <div class="slide-content">
+                            <p><?=  $slides["slide_text"]; ?></p>
+                        </div>
 
-            <?php } ?>
+                    </div>
+                <?php } ?>
 
+            </div>
         </div>
-
     </div>
-
 </section>

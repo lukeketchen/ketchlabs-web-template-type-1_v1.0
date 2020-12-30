@@ -174,12 +174,12 @@
     */
     $services_slides = array(
         "1" => array(
-                "slide_image" => "https://dummyimage.com/900x800.jpg",
-                "slide_text" => "Slide 1 text" 
+                "slide_image" => "https://dummyimage.com/900x800.jpg?text=Service 1",
+                "slide_text" => "Officia nisi proident ea enim sunt do exercitation id eiusmod fugiat. Id ad laborum commodo proident dolore eiusmod fugiat consequat dolore qui. Adipisicing aliqua consectetur est pariatur." 
         ),
         "2" => array(
-            "slide_image" => "https://dummyimage.com/900x800.jpg",
-            "slide_text" => "Slide 2 text" 
+            "slide_image" => "https://dummyimage.com/900x800.jpg?text=Service 2",
+            "slide_text" => "Nisi ad exercitation nisi enim qui nulla minim commodo in elit adipisicing ea occaecat. Amet dolor aute voluptate incididunt. Occaecat pariatur mollit sit cupidatat nulla ut exercitation. Id pariatur non consectetur excepteur proident mollit excepteur consequat." 
         ),
     );
     $services = array(
