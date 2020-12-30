@@ -2,20 +2,25 @@
     padding-left: 0;
     padding-right: 0;
     padding-top: 0 !important;
-    height: 100vh;
+    padding-bottom: 0;
+    height: $section-height;
 
     .section__container{
-        height: 100%;
         padding: 0;
         max-width: unset;
     }
-    
-    .section-slider{
+
+    .section__container, 
+    .section-slider, 
+    .slick-list,
+    .slick-track,
+    .banner-slide,
+    .slick-slide,
+    .slick-slide > div{
         height: 100%;
     }
 
     .banner-slide{
-        height: 100vh;
         position: relative;
     }
 
@@ -32,7 +37,10 @@
         justify-content: center;
         width: 80%;
         height: 90%;
+    }
 
+    .slick-dots{
+        bottom: 0;
     }
 
     .content-heading{

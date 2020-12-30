@@ -1,10 +1,36 @@
 .section--testimonials{
     padding-left: 0;
     padding-right: 0;
+    height: calc( #{$section-height} / 2 );
+
+    .section__container, 
+    .testimonials-slider, 
+    .slick-list,
+    .slick-track,
+    .testimonials-slide,
+    .slick-slide,
+    .slick-slide > div{
+        height: 100%;
+    }
+
     
     .slide-content {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .img-wrapper{
+        height: 100px;
+        width: 100px;
+    }
+
+    .content-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: $padding-md;
     }
 }

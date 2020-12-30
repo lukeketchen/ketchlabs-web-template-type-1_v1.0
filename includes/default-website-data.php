@@ -4,7 +4,7 @@
     */
     $website_title = "Default website title";
     $page_title = "";
-    $logo_large = "https://dummyimage.com/300x300.jpg";
+    $logo_large = "https://dummyimage.com/300x300.jpg?text=Large logo";
     $logo_thin = "https://dummyimage.com/300x100.jpg?text=Logo";
     $page_navigation = array(
         "1" => array(
@@ -89,7 +89,7 @@
     );
 
     // Homepage services
-    $homepage_service_image = "https://dummyimage.com/250x400.jpg";
+    $homepage_service_image = "https://dummyimage.com/250x400.jpg?text=Service img";
     $homepage_service_heading = "Service Heading";
     $homepage_service_subheading = "Service subheading";
     $homepage_services = array(
@@ -109,7 +109,7 @@
     $homepage_services_button = "See Our Services";
 
     // Homepage Projects
-    $homepage_project_image = "https://dummyimage.com/250x400.jpg";
+    $homepage_project_image = "https://dummyimage.com/250x400.jpg?text=Project img";
     $homepage_project_heading = "Projects Heading";
     $homepage_project_subheading = "Projects subheading";
     $homepage_project_jobheading = "Projects job heading";
@@ -123,7 +123,7 @@
     $homepage_contact_heading = "Contact Heading";
     $homepage_contact_subheading = "Contact subheading";
     $homepage_contact_button = "Lets get started";
-    $homepage_contact_image = "https://dummyimage.com/250x400.jpg";
+    $homepage_contact_image = "https://dummyimage.com/250x400.jpg?text=Contact img";
 
     
     /*

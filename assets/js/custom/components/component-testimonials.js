@@ -9,7 +9,7 @@
             dots: true,
             arrows: false,
             autoplay: true,
-            autoplaySpeed: 4000,
+            autoplaySpeed: 6000,
             infinite: true,
 
         });
