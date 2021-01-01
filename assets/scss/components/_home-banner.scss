@@ -49,6 +49,9 @@
 
     .content-text{
         width: 45%;
+        @include mq($until: desktop) {
+            width: 100%;
+        }
     }
 
     .content-action{

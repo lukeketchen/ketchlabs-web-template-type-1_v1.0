@@ -8,22 +8,34 @@
         justify-content: space-between;
         padding-top: $padding-md;
         padding-bottom: $padding-md;
+        @include mq($until: desktop) {
+            flex-direction: column-reverse;
+        }
     }
 
     .img-wrapper{
         height: 500px;
         width: 30%;
+        @include mq($until: desktop) {
+            width: 100%;
+        }
     }
     
     .slide-content{
         width: 70%;
         padding-right: $padding-md;
+        @include mq($until: desktop) {
+            width: 100%;
+        }
     }
 
     .display-backwards{
         .slide-content{
             padding-left: $padding-md;
             padding-right: 0;
+            @include mq($until: desktop) {
+                padding-left: 0;
+            }
         }
     }
     

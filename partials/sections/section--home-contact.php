@@ -18,9 +18,9 @@
 
                         <div class="contact-details">
                                 <h4>Call</h4>
-                                <h4><?= $phone_number; ?></h4>
+                                <h4><a href="tel:+<?= $phone_number; ?>"><?= $phone_number; ?></a></h4>
                                 <h4>Email</h4>
-                                <h4><?= $email_address; ?></h4>
+                                <h4><a href="mailto:<?= $email_address; ?>"><?= $email_address; ?></a></h4>
                         </div>
 
                     </div>

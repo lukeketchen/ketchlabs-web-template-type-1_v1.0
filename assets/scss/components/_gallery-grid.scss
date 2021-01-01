@@ -3,5 +3,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: $padding-md;
+        @include mq($until: desktop) {
+            grid-template-columns: 1fr 1fr;
+            gap: $padding-sm;
+        }
+        @include mq($until: tablet) {
+            grid-template-columns: 1fr;
+            gap: $padding-x-sm;
+        }
     }
 }

@@ -16,9 +16,32 @@
                 <?php } ?>
             </div>
 
-            <div class="contact-wrapper">
-                <p>Email: <?= $email_address; ?></p>
+            <div class="mobile-nav-wrapper">
+                <div class="hamburger hamburger--collapse">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
             </div>
+
+            <div class="contact-wrapper">
+                <p>Email: <a href="mailto:<?= $email_address; ?>"><?= $email_address; ?></a></p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="section section__full section--mobile-nav">
+    <div class="section__background">
+        <div class="section__container">
+
+            <?php foreach($page_navigation as $nav){ ?>
+                    
+                <h2><a class="top-menu-item" href="<?=  $nav["nav_link"];  ?>"><?=  $nav["nav_title"];  ?></a></h2>
+        
+            <?php } ?>
 
         </div>
     </div>

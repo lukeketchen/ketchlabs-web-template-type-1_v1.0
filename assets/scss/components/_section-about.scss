@@ -6,14 +6,25 @@
     .section__row{
         display: flex;
         margin-bottom: $padding-md;
+        @include mq($until: desktop) {
+            flex-direction: column;
+        }
     }
     .img-wrapper{
         height: 500px;
         width: 30%;
+        @include mq($until: desktop) {
+            width: 100%;
+            margin-bottom: $padding-lg;
+        }
     }
     &__column{
         width: 70%;
         padding-left: $padding-md;
+        @include mq($until: desktop) {
+            padding-left: 0;
+            width: 100%;
+        }
     }
     .content-header{
         margin-bottom: $padding-md;

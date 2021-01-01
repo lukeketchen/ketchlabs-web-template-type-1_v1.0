@@ -3,6 +3,20 @@
 
     .section__container{
         height: 100%;
+        @include mq($until: desktop) {
+            flex-direction: column;
+        }
+    }
+
+    .section__column {
+        @include mq($until: desktop) {
+            width: 100%;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            &:last-of-type{
+                height: 100%;
+            }
+        }
     }
     
     .section__content{
@@ -15,9 +29,17 @@
     .img-wrapper{
         height: 100%;
         padding-top: $padding-x-lg;
+        @include mq($until: desktop) {
+            height: 200px;
+            margin-bottom: $padding-md;
+            padding-top: 0;
+        }
     }
 
     .content-text{
         @include content-border; 
+        @include mq($until: desktop) {
+            padding: $padding-sm;
+        }
     }
 }

@@ -38,8 +38,8 @@ section,
     &:last-child {
         padding-bottom: $padding-md;
     }
-    @include mq($until: tablet) {
-        padding: $padding-sm $padding-sm;
+    @include mq($until: desktop) {
+        padding: 0;
     }
 
     &--lightbox {

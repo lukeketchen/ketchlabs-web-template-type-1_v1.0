@@ -20,6 +20,10 @@ footer,
     &__top-container{
         display: grid;
         grid-template-columns: [start] 1fr [mid] 1fr [last] 1fr [end];   
+        @include mq($until: desktop) {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     .img-wrapper{
@@ -28,6 +32,10 @@ footer,
         max-height: $footer-img-height;
         img{
             object-position: center;
+        }
+        @include mq($until: desktop) {
+            max-height: unset;
+            margin-bottom: $padding-sm;
         }
     }
     
@@ -50,7 +58,7 @@ footer,
         height: 100%;
         @include mq($until: tablet) {
             flex-direction: column;
-            padding: $padding-md;
+            padding: 0;
         }
         
     }
