@@ -63,7 +63,7 @@
 .section.section--mobile-nav{
     height: $section-height;
     display: none;
-    position: absolute;
+    position: fixed;
     top: $navbar-height;
     z-index: 2;
 
