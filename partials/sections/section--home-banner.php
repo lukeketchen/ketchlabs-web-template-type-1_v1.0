@@ -16,10 +16,6 @@
                             <h1><?=  $slides["banner_title"]; ?></h1>
                             <h3 class="h3--large content-heading"><?=  $slides["banner_subtitle"]; ?></h3>
                             <p class="content-text"><?=  $slides["banner_text"]; ?></p>
-                            
-                            <div class="content-action">
-                                <button><?=  $slides["banner_button"]; ?></button>
-                            </div>
 
                         </div>
 

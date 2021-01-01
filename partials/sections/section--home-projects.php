@@ -32,9 +32,7 @@
                     </div>
                     
                     <div class="content-action">
-
-                        <button><?=  $homepage_project_button; ?></button>
-
+                        <a href="gallery.php"><button><?=  $homepage_project_button; ?></button></a>
                     </div>
                 
                 </div>

@@ -28,7 +28,7 @@
                     </div>
 
                     <div class="content-action">
-                        <button><?=  $homepage_about_button; ?></button>
+                        <a href="about.php"><button><?=  $homepage_about_button; ?></button></a>
                     </div>
 
                 </div>

@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="content-action">
-                        <button><?=  $homepage_contact_button; ?></button>
+                        <a href="contact.php"><button><?=  $homepage_contact_button; ?></button></a>
                     </div>
 
                 </div>

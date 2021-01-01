@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="content-action">
-                        <button><?=  $homepage_services_button; ?></button>
+                        <a href="services.php"><button><?=  $homepage_services_button; ?></button></a>
                     </div>
 
                 </div>
