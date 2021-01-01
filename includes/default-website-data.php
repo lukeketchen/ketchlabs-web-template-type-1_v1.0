@@ -146,25 +146,25 @@
     */
     $gallery_slides = array(
         "1" => array(
-                "slide_image" => "https://dummyimage.com/900x800.jpg",
+                "slide_image" => "https://dummyimage.com/900x800.jpg?text=Gallery 1",
                 "slide_text" => "Hang the jib grog blossom long clothes warp measured fer yer chains pinnace swab ballast cog maroon. Warp dance the hempen jig skysail jolly boat crack Jennys tea cup execution dock reef brig keel measured fer yer chains. Lanyard landlubber or just lubber reef sails tackle lad fore Gold Road strike colors pink crow's nest." 
         ),
         "2" => array(
-            "slide_image" => "https://dummyimage.com/900x800.jpg",
+            "slide_image" => "https://dummyimage.com/900x800.jpg?text=Gallery 2",
             "slide_text" => "Coxswain sloop deadlights weigh anchor chase booty poop deck parrel Chain Shot lugger. Cat o'nine tails spike Sink me transom Admiral of the Black marooned handsomely Arr me loot. Provost coffer bucko pink weigh anchor heave to mizzenmast crow's nest Blimey Barbary Coast." 
         ),
     );
     $gallery_images = array(
-        "1" => "https://dummyimage.com/300x200.jpg",
-        "2" => "https://dummyimage.com/300x200.jpg",
-        "3" => "https://dummyimage.com/300x200.jpg",
-        "4" => "https://dummyimage.com/300x200.jpg",
-        "5" => "https://dummyimage.com/300x200.jpg",
-        "6" => "https://dummyimage.com/300x200.jpg",
-        "7" => "https://dummyimage.com/300x200.jpg",
-        "8" => "https://dummyimage.com/300x200.jpg",
-        "9" => "https://dummyimage.com/300x200.jpg",
-        "10" => "https://dummyimage.com/300x200.jpg",
+        "1" => "https://dummyimage.com/300x200.jpg?text=Gallery 1",
+        "2" => "https://dummyimage.com/300x200.jpg?text=Gallery 2",
+        "3" => "https://dummyimage.com/300x200.jpg?text=Gallery 3",
+        "4" => "https://dummyimage.com/300x200.jpg?text=Gallery 4",
+        "5" => "https://dummyimage.com/300x200.jpg?text=Gallery 5",
+        "6" => "https://dummyimage.com/300x200.jpg?text=Gallery 6",
+        "7" => "https://dummyimage.com/300x200.jpg?text=Gallery 7",
+        "8" => "https://dummyimage.com/300x200.jpg?text=Gallery 8",
+        "9" => "https://dummyimage.com/300x200.jpg?text=Gallery 9",
+        "10" => "https://dummyimage.com/300x200.jpg?text=Gallery 10",
     );
 
    
@@ -186,20 +186,32 @@
         "1" => array(
             "service_title" => "Service 1 Title",
             "display_backwards" => false,
-            "service_text" => "Service 1 text",
-            "service_image" => "https://dummyimage.com/200x300.jpg"
+            "service_text" => array(
+                "1" => "Consectetur consectetur et ex aliqua Lorem eiusmod dolore exercitation fugiat. Ullamco voluptate nisi magna sit minim in excepteur excepteur do. Magna reprehenderit nostrud dolore laboris minim eu ex cillum laborum fugiat excepteur tempor enim. Sit occaecat magna laborum veniam excepteur fugiat consequat non.",
+                "2" => "Ullamco incididunt qui est pariatur elit. Ex Lorem cillum adipisicing qui eiusmod anim anim fugiat ipsum adipisicing. Labore veniam magna pariatur quis nulla ullamco ex consectetur aute. Irure et duis ex est qui. Quis nostrud ipsum voluptate ut est ex eiusmod occaecat irure eiusmod proident ut proident. Irure non nisi et do nostrud sunt incididunt irure ipsum Lorem consectetur.",
+                "3" => "Quis laboris et aute exercitation cupidatat consectetur ad aliqua. Irure mollit sit non reprehenderit voluptate. Tempor eiusmod voluptate pariatur esse nulla tempor ipsum pariatur commodo amet enim et. Occaecat incididunt adipisicing ut anim mollit ullamco irure.",
+            ),
+            "service_image" => "https://dummyimage.com/200x300.jpg?text=Service 1"
         ),
         "2" => array(
             "service_title" => "Service 2 Title",
             "display_backwards" => true,
-            "service_text" => "Service 2 text",
-            "service_image" => "https://dummyimage.com/200x300.jpg"
+            "service_text" => array(
+                "1" => "Consectetur consectetur et ex aliqua Lorem eiusmod dolore exercitation fugiat. Ullamco voluptate nisi magna sit minim in excepteur excepteur do. Magna reprehenderit nostrud dolore laboris minim eu ex cillum laborum fugiat excepteur tempor enim. Sit occaecat magna laborum veniam excepteur fugiat consequat non.",
+                "2" => "Ullamco incididunt qui est pariatur elit. Ex Lorem cillum adipisicing qui eiusmod anim anim fugiat ipsum adipisicing. Labore veniam magna pariatur quis nulla ullamco ex consectetur aute. Irure et duis ex est qui. Quis nostrud ipsum voluptate ut est ex eiusmod occaecat irure eiusmod proident ut proident. Irure non nisi et do nostrud sunt incididunt irure ipsum Lorem consectetur.",
+                "3" => "Ipsum proident in laborum ex. Enim cupidatat sunt enim cupidatat fugiat eiusmod nisi excepteur. Consequat eiusmod excepteur ea magna dolore labore. Ullamco non laboris dolore dolor et nostrud. Tempor deserunt aliqua sunt adipisicing anim ut commodo non in amet aute ad. Eiusmod quis sint sunt nisi do officia ad tempor ut labore irure nisi. Anim ea eu magna minim id tempor eu.",
+            ),
+            "service_image" => "https://dummyimage.com/200x300.jpg?text=Service 2"
         ),
         "3" => array(
             "service_title" => "Service 3 Title",
             "display_backwards" => false,
-            "service_text" => "Service 3 text",
-            "service_image" => "https://dummyimage.com/200x300.jpg"
+            "service_text" => array(
+                "1" => "Consectetur consectetur et ex aliqua Lorem eiusmod dolore exercitation fugiat. Ullamco voluptate nisi magna sit minim in excepteur excepteur do. Magna reprehenderit nostrud dolore laboris minim eu ex cillum laborum fugiat excepteur tempor enim. Sit occaecat magna laborum veniam excepteur fugiat consequat non.",
+                "2" => "Ullamco incididunt qui est pariatur elit. Ex Lorem cillum adipisicing qui eiusmod anim anim fugiat ipsum adipisicing. Labore veniam magna pariatur quis nulla ullamco ex consectetur aute. Irure et duis ex est qui. Quis nostrud ipsum voluptate ut est ex eiusmod occaecat irure eiusmod proident ut proident. Irure non nisi et do nostrud sunt incididunt irure ipsum Lorem consectetur.",
+                "3" => "Officia voluptate adipisicing ea adipisicing. Et est eiusmod cillum occaecat consectetur fugiat nostrud cillum pariatur duis quis. Sunt nostrud eiusmod aliqua veniam nisi culpa deserunt eiusmod adipisicing. Deserunt reprehenderit laboris labore veniam. Cupidatat adipisicing excepteur irure aliquip enim sunt pariatur eiusmod dolore ad exercitation ad sunt.",
+            ),
+            "service_image" => "https://dummyimage.com/200x300.jpg?text=Service 3"
         ),
     );
 

@@ -1,27 +1,23 @@
 
 <!-- Section Contact -->
 <section class="section section--contact">
-
     <div class="section__background">
-
         <div class="section__container">
 
-            <div class="map-holder">
-                <img src="<?= $contact_image; ?>" alt="map">
+            <div class="img-wrapper">
+                <img class="img--cover" src="<?= $contact_image; ?>" alt="map">
             </div>
             
-            <div class="contact-details">
-                <h5><?= $contact_tagline; ?></h5>
-                <ul>
-                    <li>Call</li>
-                    <li><?= $phone_number; ?></li>
-                    <li>Email</li>
-                    <li><?= $email_address; ?></li>
-                </ul>
+            <div class="contact-box">
+                <p><?= $contact_tagline; ?></p>
+                <div class="contact-details">
+                    <h4>Call</h4>
+                    <h4><?= $phone_number; ?></h4>
+                    <h4>Email</h4>
+                    <h4><?= $email_address; ?></h4>
+                </div>
             </div>
 
         </div>
-
     </div>
-
 </section>
