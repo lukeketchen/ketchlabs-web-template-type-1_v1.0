@@ -5,7 +5,7 @@
         <div class="section__container">
 
             <div class="logo-wrapper">
-                <a class="" href="index"><img src="<?= $logo_thin ?>" alt=""></a>
+                <a class="" href="index.php"><img src="<?= $logo_thin ?>" alt=""></a>
             </div>
 
             <div class="nav-wrapper">
